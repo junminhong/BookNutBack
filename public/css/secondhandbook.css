@@ -1,0 +1,124 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #156D29;
+}
+
+.nb-header {
+  background-color: #fff;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo-img {
+  width: 40%;
+}
+
+.nb-li {
+  display: inline;
+  position: relative;
+  padding: 5% 3%;
+}
+
+.nb-li-a {
+  text-decoration: none;
+  color: black;
+}
+
+.nb-li-a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.nb-ul {
+  position: relative;
+  padding: 1% 1%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0%;
+  width: 50%;
+}
+
+.shb-search {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+.shb-left {
+  position: relative;
+  height: 100%;
+}
+
+.shb-left-btn {
+  position: relative;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 5% 10%;
+  border-radius: 3px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.shb-left-btn:hover {
+  background-color: #098F5E;
+  text-decoration: none;
+}
+
+.shb-right {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.shb-right hr {
+  margin: 0 3%;
+  border: 0.5px solid #5C6B6B;
+  color: #5C6B6B;
+  background-color: #5C6B6B;
+}
+
+.shb-content {
+  padding: 2% 5%;
+  width: 90%;
+}
+
+.shb-text {
+  color: black;
+  padding: 2%;
+  padding-left: 5%;
+}
+
+.shb-text .user {
+  padding: 1%;
+  color: #5C6B6B;
+  font-size: 14px;
+}
+
+.shb-text .name {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.shb-text .money {
+  padding: 1%;
+  color: red;
+  font-size: 20px;
+}
+
+.shb-text .p {
+  padding: 1%;
+  color: #5C6B6B;
+}

@@ -1,0 +1,349 @@
+*{
+    font-family: 微軟正黑體;
+    letter-spacing: 1px;
+
+    box-sizing: border-box;
+  }
+
+  
+li,img{
+    display: inline-block;
+}
+
+a{
+    display: inline-block;
+    color: white;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.headerblock{
+    z-index: 3;
+    width:100%;
+    height: 120px;
+    position: fixed;
+    background-color: #156D29;
+
+}
+
+.nav1{
+    width: 100%;
+    height: 30%;
+    padding: 0 20%;
+    text-align: right;
+    
+}
+
+
+.nav1-li{
+    padding: 2px 10px;
+}
+
+.nav2{
+    width: 100%;
+    height: 70%;
+    padding: 0 20%;
+
+    box-sizing: border-box;
+    
+}
+
+.nav2-a-logo{
+    display: inline-block;
+    width:12.5%;
+    height: 100%;
+    vertical-align: middle;
+}
+.nav2-logo{
+    width: 100%;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+
+
+
+}
+
+.nav2-search{
+    position: relative;
+    background-color: #fff;
+    width: 75%;
+    height: 60%;
+    vertical-align: middle;
+
+
+    display: inline-block;
+}
+
+.nav2-input{
+    height: 100%;
+    width: 90%;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 0 2%;
+
+}
+
+.search-btn{
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 0;
+    
+
+}
+.search-btn a{
+    display: inline;
+
+
+}
+.search-btn img{
+    position: relative;
+    border-radius: 3px;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    
+}
+
+.nav2-cart{
+    display: inline-block;
+    width: 11%;
+    height: 100%;
+    margin: 0px;
+    vertical-align: middle;
+}
+.nav2-cart a{
+    position: relative;
+    width: 60%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.nav2-cart img{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+
+}
+
+
+
+
+
+.body-white{
+    background-color: white;
+    width: 100%;
+    height: 120px;
+}
+.body-promote{
+    box-shadow: 0.5px 0.5px 2px rgb(54, 54, 54);
+    width: 100%;
+    height: 360px;
+    padding: 0 20%;
+}
+.body-promote-img1{
+    vertical-align: top;
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    padding: 1%;
+
+}
+.body-promote-img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.body-promote-img2{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    padding: 1%;
+
+}
+.body-promote-img2 img{
+    width: 100%;
+    height: 50%;
+    padding: 1%;
+}
+
+.body-category{
+    width: 100%;
+    height: 340px;
+    padding: 0 20%;  
+    
+    position: relative;
+}
+.body-category h3{
+    height: 10%;
+    width: 100%;
+    display: inline-block;
+}
+.body-category table{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 90%;
+
+
+}
+.body-category h5{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.body-category td{
+    padding: 1%;
+    width: 10%;
+    overflow: hidden;
+    border: solid #545454 1px;
+    transition: 0.3s;
+}
+
+.body-category td:hover{
+    box-shadow: 3px 3px 2px rgb(54, 54, 54);
+
+}
+
+.body-category img{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%) ;
+    padding: 1%;
+}
+
+
+.main{
+    width: 100%;
+    padding: 0% 20%;
+}
+
+.promote2{
+    width: 70%;
+    padding: 1%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+
+}
+.promote2 table{
+    width: 100%;
+}
+.promote2 td{
+    padding: 1%;
+    width: 20%;
+
+}
+
+.promote2 h5{
+    padding: 1%;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) ;
+}
+
+.promote2 img{
+    position: relative;
+    border: 1px black solid;
+    width: 100px;
+    height: 150px;
+    left: 50%;
+    transform: translateX(-50%) ;
+    padding: 1%;
+    transition: 0.3s;
+}
+.promote2 a{
+    border: 1.5px black solid;
+    padding: 2%;
+}
+.promote2 a:hover{
+    border: 1.5px rgb(199, 106, 0) solid;
+}
+
+
+.newin{
+    width: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 2%;
+
+}
+
+.newin h5{
+    color: black;
+    font-size: 16px;
+    position: relative;
+}
+.newin h5:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.newin a{
+    border-bottom: dashed 1px black;
+
+}
+
+.detail{
+    padding: 0 20%;
+    
+}
+.card{
+    display: inline-block;
+    padding: 1%;
+    border: none;
+    margin-bottom: 20px;
+}
+.card h4{
+    font-size: 32px;
+    padding: 10px;
+    
+}
+.card a{
+    display: inline-block;
+    width: 19%;
+    
+    color: BLACK;
+    text-align: center;
+}
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 50%;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 30%;
+    background-color: #156D29;
+    position: relative;
+  }
+  .footer-logo {
+    position: relative;
+    display: block;
+    margin: auto;
+
+    width: 15%;
+  }

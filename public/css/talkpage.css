@@ -1,0 +1,166 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  letter-spacing: 1px;
+}
+.tp-header {
+    background-color: #fff;
+  }
+.logo {
+    position: relative;
+  }
+.logo-img {
+    width: 20%;
+  }
+.tp-title{
+    letter-spacing: 2px;
+    color: #333333;
+    font-weight: 700;
+    font-size: 26px;
+}
+.search-box{
+  display: inline-block;
+  letter-spacing: 2px;
+  color: #333333;
+}
+.tp-btn {
+  position: fixed;
+  bottom: 0;
+  right: 20;
+  width: 200px;
+  height: 100px;
+  color:white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 100px;
+  background-color: #098F5E;
+}
+.tpsearch-btn {
+  position: fixed;
+  top: 40;
+  left: 0;
+  width: 180px;
+  height: 50px;
+  color:white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+  background-color: #098F5E;
+  font-family: 微軟正黑體;
+}
+.tp-btn:hover {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  border: solid 0px #098F5E;
+}
+.tp-ul {
+  position: relative;
+  padding: 1% 1%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0%;
+  width: 75%;
+}
+.tp-li {
+  display: inline;
+  position: relative;
+  padding: 5% 3%;
+}
+.tp-li-a {
+  text-decoration: none;
+  color: black;
+}
+.tp-li-a:hover {
+  color: black;
+  text-decoration: none;
+}
+.tp-section1{
+  width:100%;
+  height: 650px;
+  background-color: #fff;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tp-content2{
+  width:100%;
+  height: 650px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 20px;
+  overflow-x: scroll;
+}
+.tp-list{
+  height: 650px;
+  padding: 20px;
+  background-color: #fff;
+}
+.tp-content{
+  height: 650px;
+  background-color: #fff;  
+  overflow-y:scroll;
+}
+.tp-title{
+  font-weight: 700;
+  color: #098F5E;
+}
+.tp1-p {
+  font-size: 18px;
+  line-height: 1.56;
+  color: #333333;
+}
+.tp-ct-title{
+  font-size: 36px;
+  font-weight: 700;
+  color: #098F5E;
+}
+.tp-comment{
+  padding-bottom: 20px;
+}
+.row{
+  padding: 10px;
+}
+.footer {
+  width: 100%;
+  height: 30%;
+  background-color: #156D29;
+  position: relative;
+}  
+.footer-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 15%;
+}
+
+
+
+::placeholder { /* CSS 3 標準 */
+  color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome, Safari */
+  color: white;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}

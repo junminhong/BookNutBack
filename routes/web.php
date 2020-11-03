@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\FirebaseController;
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Http\Request;
+use \App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('login', 'user-login');
+Route::post('userlogin', [LoginController::class, 'login']);
+Route::get('logout', [LoginController::class, 'logout']);
+Route::view('register', 'user-register');
