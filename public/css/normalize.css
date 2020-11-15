@@ -21,7 +21,7 @@ html {
  */
 
 body {
-  margin: 0;
+  margin: 0;padding: 0;height: auto;
 }
 
 /**
@@ -347,3 +347,4 @@ template {
 [hidden] {
   display: none;
 }
+

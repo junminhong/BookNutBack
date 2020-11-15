@@ -45,4 +45,15 @@ class LoginController extends Controller
         Auth::logout();
         return Redirect::to('login');
     }
+    public function test(){
+        return "asd";
+    }
+    public function registerUser(Request $request){
+        /**
+         * 註冊使用者帳號
+         **/
+        $user_email = $request->input('user_email');
+        $user_password = $request->input('user_password');
+        $user_name = $request->input('user_name');
+    }
 }

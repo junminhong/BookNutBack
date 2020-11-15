@@ -18,7 +18,12 @@ use \App\Http\Controllers\LoginController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::view('login', 'user-login');
+
 Route::post('userlogin', [LoginController::class, 'login']);
 Route::get('logout', [LoginController::class, 'logout']);
-Route::view('register', 'user-register');
+Route::get('register', function (){
+    return view('user-register', ['title' => '註冊會員']);
+});
+Route::get('login', function (){
+    return view('user-login', ['title' => '會員登入']);
+});

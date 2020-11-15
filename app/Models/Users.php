@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 class Users extends Model implements Authenticatable
 {
     use HasFactory;
-    protected $table = 'users';
+    protected $table = 'users_data';
 
     public function getAuthIdentifierName()
     {
